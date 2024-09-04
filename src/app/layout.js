@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
             <Logo />
             <Sidebar />
           </header>
-          <main className="w-[80%] border p-10">
+          <main className="w-[80%] border bg-gray-50">
             {children}
           </main>
         </div>
