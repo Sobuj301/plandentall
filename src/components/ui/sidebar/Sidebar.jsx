@@ -20,14 +20,10 @@ import { usePathname } from "next/navigation";
 const Sidebar = () => {
 
     const navLinks = [
-        {
-            name: "Dashboard",
-            path: "/",
-            icon: MdDashboard
-        },
+       
         {
             name: "Profile",
-            path: "/profile",
+            path: "/profile/details",
             icon: CgProfile
         },
         {

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Profile = () => {
+const Feedback = () => {
     return (
         <div>
-           
+            <h2>Feedback</h2>
         </div>
     );
 };
 
-export default Profile;
+export default Feedback;
